@@ -1,0 +1,155 @@
+/* App.css */
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  header nav ul li a img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  header .cta-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  header button {
+    background: #f90;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  header button.primary {
+    background: #f90;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+  }
+  
+  .hero .cta {
+    margin-top: 20px;
+  }
+  
+  /* Features section styles */
+  .features {
+    padding: 50px 20px;
+  }
+  
+  .features h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .feature-item {
+    margin: 20px 0;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+  }
+  
+  /* Additional features section styles */
+  .additional-features {
+    background: #f4f4f4;
+    padding: 50px 20px;
+  }
+  
+  .additional-features h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .social-links a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    header .cta-buttons {
+      margin-top: 10px;
+    }
+  }
+  

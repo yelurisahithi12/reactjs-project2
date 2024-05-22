@@ -1,0 +1,112 @@
+/* HeroSection.css */
+
+body {
+  background-color: white; /* Set the background color of the entire page to white */
+  font-family: Arial, sans-serif; /* Adjust the font family as needed */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.hero {
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue; /* Background color for the hero section */
+}
+
+.mac-app-store-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mac-app-store-button::before {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/15px-Apple_logo_black.svg.png');
+  margin-right: 5px;
+}
+
+.buy-now-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-now-button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  background-color: white; /* Change background color to white */
+  color: black;
+  padding: 20px;
+  border-radius: 5px;
+  width: 45%;
+  margin: 10px auto; /* Center the container horizontally */
+  box-sizing: border-box;
+}
+
+.side-by-side-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional styles for images */
+.hero p img {
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.custom{
+  color: darkblue;
+}
+.artwork, .artwork1 {
+  
+  padding: 10px;
+  border-radius: 10px;
+ 
+  margin: 20px 0;
+}
+
+.artwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  float: left;
+}
+
+.artwork1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  float: right;
+}
+
+.artwork img, .artwork1 img {
+  height: 80px;
+}
+
+.artwork p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.artwork p b {
+  display: block;
+}
+.integrations-text {
+  color: red;
+}
